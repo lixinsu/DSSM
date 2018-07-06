@@ -14,7 +14,7 @@ features
  ## training
    - clone the reposity and run `sh scripts/setup.sh` 
    - `cd data/atec` and download data from - [atec data](https://dc.cloud.alipay.com/index#/home)
-   - split the origin csv file to `train.csv` and `dev.csv`
+   - split the origin csv file to `train.csv` , `dev.csv` and `test.csv`
    - run `sh scripts/train.sh`
    
    
