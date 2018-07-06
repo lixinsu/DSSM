@@ -11,3 +11,10 @@ features
  - word char double channel
 
 
+ ## training
+   - clone the reposity and run `sh scripts/setup.sh` 
+   - `cd data/atec` and download data from - [atec data](https://dc.cloud.alipay.com/index#/home)
+   - split the origin csv file to `train.csv` and `dev.csv`
+   - run `sh scripts/train.sh`
+   
+   
