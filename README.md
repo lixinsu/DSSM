@@ -1,15 +1,11 @@
-# DSSM
-DSSM for atec competition about question identity, reference 冲刺到NLP赛题第一名bird开源起步框架
+# basic text matching model
+## representation-based method
 
-performance 
-
-- local test F1 0.5
+基本的文本匹配模型，模型使用词语和字符两种级别的级别的嵌入向量，将；两段文本进行表示，然后拼接得到隐含向量，进行二分类。
 
 features
-
- - pretrained word char embedding
- - word char double channel
-
+ - pretrained word and char embedding
+ - combine word-level and char-level matching signal
 
  ## training
    - clone the reposity and run `sh scripts/setup.sh` 
