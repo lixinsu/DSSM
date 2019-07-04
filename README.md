@@ -1,7 +1,7 @@
 # basic text matching model
-## representation-based method
+representation-based method
 
-基本的文本匹配模型，模型使用词语和字符两种级别的级别的嵌入向量，将；两段文本进行表示，然后拼接得到隐含向量，进行二分类。
+基本的文本匹配模型，用于重复问题检测。模型使用词语和字符两种级别的嵌入向量，将两段文本进行LSTM表示，然后拼接得到隐含向量，进行二分类。
 
 features
  - pretrained word and char embedding
